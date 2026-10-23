@@ -1,6 +1,6 @@
 # client-pages
 
-Client landing and authority pages, hosted on Vercel (team Kodara CSM) and shown on each
+Client landing and authority pages, hosted on GitHub Pages (public repo; free org plan only serves Pages from public repos) and shown on each
 client's own GHL page through a small iframe snippet. Approved by Lucas 2026-10-23.
 
 - One folder per client, one subfolder per page: `<client>/<page>/index.html` (+ its `styles.css`).
