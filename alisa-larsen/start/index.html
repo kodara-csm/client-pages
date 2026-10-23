@@ -272,7 +272,7 @@
 </div>
 <script>
 // tell the GHL page how tall we are, so its iframe has no inner scrollbar
-(function(){function s(){parent.postMessage({kodaraPageHeight:document.documentElement.scrollHeight},"*")}
+(function(){function s(){parent.postMessage({kodaraPageHeight:Math.ceil(document.querySelector(".aiw").getBoundingClientRect().height)},"*")}
 addEventListener("load",s);addEventListener("resize",s);new ResizeObserver(s).observe(document.body);
 document.querySelectorAll("details").forEach(function(d){d.addEventListener("toggle",s)})})();
 </script>
