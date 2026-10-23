@@ -1,10 +1,10 @@
 /* Alisa Larsen / Alisa AI landing page. Tokens sampled from the rendered
    playfulsinger.com/home (GHL builder): deep teal bands, cream + mist panels,
-   lime pill CTA, DM Serif Text headlines with an italic accent word. */
+   gold pill CTA (her brand gold, via --lime), DM Serif Text headlines with an italic accent word. */
 :root{
   --teal-deep:#1F4858; --teal-band:#1a3d4b; --teal:#2a6275; --teal-soft:#e6f0f0;
   --cream:#f5f1eb; --paper:#ffffff; --ink:#0E182C; --text:#3E4241; --muted:#6b7473;
-  --lime:#d4cc22; --lime-dark:#bdb51a; --gold:#B49A0A; --line:#dfe6e6;
+  --lime:#B49A0A; --lime-dark:#9a8308; --gold:#B49A0A; --line:#dfe6e6;
   --serif:'DM Serif Text',Georgia,'Times New Roman',serif;
   --sans:'Plus Jakarta Sans',system-ui,-apple-system,Segoe UI,sans-serif;
 }
@@ -26,7 +26,7 @@
 .aiw .strip b{color:var(--lime)}
 
 /* buttons */
-.aiw .btn{display:inline-block;background:var(--lime);color:var(--teal-deep);text-decoration:none;font-weight:800;font-size:15px;letter-spacing:.02em;padding:15px 34px;border-radius:999px;border:0;cursor:pointer;transition:transform .15s,background .15s;text-align:center}
+.aiw .btn{display:inline-block;background:var(--lime);color:var(--ink);text-decoration:none;font-weight:800;font-size:15px;letter-spacing:.02em;padding:15px 34px;border-radius:999px;border:0;cursor:pointer;transition:transform .15s,background .15s;text-align:center}
 .aiw .btn:hover{background:var(--lime-dark);transform:translateY(-1px)}
 .aiw .btn-block{display:block;width:100%}
 .aiw .btn-ghost{background:transparent;color:var(--teal-deep);border:2px solid var(--teal-deep)}
