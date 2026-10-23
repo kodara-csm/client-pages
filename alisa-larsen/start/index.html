@@ -274,7 +274,9 @@
 // tell the GHL page how tall we are, so its iframe has no inner scrollbar
 (function(){function s(){parent.postMessage({kodaraPageHeight:Math.ceil(document.querySelector(".aiw").getBoundingClientRect().height)},"*")}
 addEventListener("load",s);addEventListener("resize",s);new ResizeObserver(s).observe(document.body);
-document.querySelectorAll("details").forEach(function(d){d.addEventListener("toggle",s)})})();
+document.querySelectorAll("details").forEach(function(d){d.addEventListener("toggle",s)})
+// in-page jumps (#offers etc.) can't scroll the GHL page from inside the frame, so ask the parent to
+document.addEventListener("click",function(e){var a=e.target.closest('a[href^="#"]');if(!a)return;var t=document.querySelector(a.getAttribute("href"));if(!t)return;e.preventDefault();parent.postMessage({kodaraScrollTo:Math.round(t.getBoundingClientRect().top+scrollY)},"*")})})();
 </script>
 </body>
 </html>
