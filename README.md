@@ -1,6 +1,6 @@
 # client-pages
 
-Client landing and authority pages, hosted on GitHub Pages (public repo; free org plan only serves Pages from public repos) and shown on each
+Client landing and authority pages, hosted on GitHub Pages (public repo, since the free org plan only serves Pages from public repos) and shown on each
 client's own GHL page through a small iframe snippet. Approved by Lucas 2026-10-23.
 
 - One folder per client, one subfolder per page: `<client>/<page>/index.html` (+ its `styles.css`).
@@ -8,6 +8,8 @@ client's own GHL page through a small iframe snippet. Approved by Lucas 2026-10-
 - Links that leave the page use `target="_top"` so checkouts open full-window, not inside the iframe.
 - Each page posts its height to the parent (`kodaraPageHeight`) so the GHL snippet can size the iframe.
 - If a client leaves: inline `styles.css` into the page and paste the full HTML into their own GHL.
+
+The GHL side is the `ghl-snippet.html` next to each page, pasted once into a GHL HTML element.
 
 | Client | Page | Live on | Hosted path |
 |---|---|---|---|
