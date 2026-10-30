@@ -16,3 +16,6 @@
   --btn-radius:999px; --btn-transform:none; --btn-letter-spacing:normal;
   --eyebrow-spacing:.14em;
 }
+
+/* nav button: the nav link colour rule otherwise turns its text purple */
+.nav-links a.btn-accent{color:#fff}
