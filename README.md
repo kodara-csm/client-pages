@@ -14,4 +14,4 @@ The GHL side is the `ghl-snippet.html` next to each page, pasted once into a GHL
 | Client | Page | Live on | Hosted path |
 |---|---|---|---|
 | Alisa Larsen | 3-offer page | playfulsinger.com/start | /alisa-larsen/start/ |
-| Bart Quibell | Taka landing page | choicend.net (GHL, pending) | /bart-quibell/taka/ |
+| Bart Quibell | Taka landing page | choicend.net (GHL funnel "Taka Landing Page") | /bart-quibell/taka/ |
