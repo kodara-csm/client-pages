@@ -1,0 +1,8 @@
+/* THEME: WINS (Ezeugwu Global Gateway). Colours from Dr. Ezeugwu's WINS brand.
+   Link AFTER styles.css. */
+:root{
+  --gold:#B08A2E; --gold-d:#8A6A1F; --ink:#2B2416; --cream:#FBF7EE; --tint:#F3E9D2;
+  --red:#A8392E; --red-t:#F4DCD6; --dim:#6B6152; --line:#E6DAC0; --on-dark:#E9E1CF;
+  --font-display:Georgia,"Times New Roman",serif;
+  --font-body:-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+}
