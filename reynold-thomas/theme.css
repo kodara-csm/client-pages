@@ -1,0 +1,19 @@
+/* THEME: Professional, clean, trustworthy, modern (the default look).
+   Plus Jakarta Sans headlines + Instrument Sans body.
+   Reynold Thomas: navy #1F4F8F + gold #F2B134, from The Grade Unlock Engine brand.
+   Link AFTER styles.css. Mirrors styles.css's built-in defaults. */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+:root{
+  --bg:#ffffff; --bg-alt:#f5f7fb; --ink:#0f1a2e; --ink-soft:#33405a;
+  --muted:#5b6578; --line:#e3e8f0;
+  --accent:#1F4F8F; --accent-2:#173c6d; --accent-soft:#fdf1d6;
+  --card:#ffffff; --radius:14px; --radius-lg:18px;
+  --shadow:0 1px 2px rgba(15,26,46,.04), 0 8px 24px rgba(15,26,46,.06);
+  --accent-rgb:31,79,143;
+  --font-display:'Plus Jakarta Sans',system-ui,-apple-system,Segoe UI,sans-serif;
+  --font-body:'Instrument Sans',system-ui,-apple-system,Segoe UI,sans-serif;
+  --btn-radius:999px; --btn-transform:none; --btn-letter-spacing:normal;
+  --eyebrow-spacing:.14em;
+}
+.logo span{color:#F2B134}
