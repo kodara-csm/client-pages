@@ -10,6 +10,6 @@ f.addEventListener("load",function(){f.contentWindow.postMessage({kodaraHost:tru
 window.addEventListener("message",function(e){if(e.origin!==O||!e.data)return;
 if(e.data.kodaraPageHeight)f.style.height=e.data.kodaraPageHeight+"px";
 // shop click: record it on the pixel, then open the store (short delay so the event is sent first)
-if(e.data.kodaraTrack&&/^https:\/\/globallee\.com\//.test(e.data.href)){fbq('track',e.data.kodaraTrack,{content_name:'Taka',currency:'USD',value:74.95});
+if(e.data.kodaraTrack&&/^https:\/\/globallee\.(com|mybigcommerce\.com)\//.test(e.data.href)){fbq('track',e.data.kodaraTrack,{content_name:'Taka',currency:'USD',value:74.95});
 setTimeout(function(){window.location.href=e.data.href},400)}})})();
 </script>
